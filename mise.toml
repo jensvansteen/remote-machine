@@ -1,0 +1,12 @@
+# Global runtime versions. Tweak as needed.
+# Project-level .mise.toml files override these per-directory.
+
+[tools]
+node = "24"
+python = "3.13"
+java = "temurin-17"         # JDK 17 — required for React Native Android builds
+ruby = "3.3"                # for CocoaPods
+
+[settings]
+experimental = true
+not_found_auto_install = true

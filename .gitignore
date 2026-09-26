@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Local secrets — never commit
+.env
+.env.local
+*.key
+*.pem
+id_*
+known_hosts
+
+# Personal customizations that don't belong in the shared repo
+local/
